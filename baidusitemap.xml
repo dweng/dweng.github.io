@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://biblereader.cn/Bible-Reader.html</loc>
+    <lastmod>2018-10-24T07:21:42.429Z</lastmod>
+    <data>
+        <display>
+        <title>《圣经研读》介绍</title>
+        <pubTime>2017-09-09T06:39:55.915Z</pubTime>
+        
+        <tag>介绍</tag>
+         
+        <tag>圣经研读工具</tag>
+         
+         
+           
+             
+              <breadCrumb title="圣经工具" url="http://biblereader.cn/categories/%E5%9C%A3%E7%BB%8F%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://biblereader.cn/%E5%90%AF%E7%A4%BA%E5%BD%95%E4%B8%80%E7%AB%A0%E5%AF%B9%E8%80%B6%E7%A8%A3%E5%9F%BA%E7%9D%A3%E7%9A%84%E7%A5%9E%E5%AD%A6%E6%80%A7%E6%8F%8F%E8%BF%B0.html</loc>
     <lastmod>2018-10-24T06:55:24.818Z</lastmod>
     <data>
@@ -141,28 +163,6 @@
           
              
               <breadCrumb title="成圣" url="http://biblereader.cn/categories/%E5%9C%A3%E7%BB%8F/%E6%88%90%E5%9C%A3/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://biblereader.cn/Bible-Reader.html</loc>
-    <lastmod>2018-10-18T08:16:43.049Z</lastmod>
-    <data>
-        <display>
-        <title>《圣经研读》介绍</title>
-        <pubTime>2017-09-09T06:39:55.915Z</pubTime>
-        
-        <tag>介绍</tag>
-         
-        <tag>圣经研读工具</tag>
-         
-         
-           
-             
-              <breadCrumb title="圣经工具" url="http://biblereader.cn/categories/%E5%9C%A3%E7%BB%8F%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
