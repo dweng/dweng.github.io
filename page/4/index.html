@@ -1,15 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
 
 
 
   
 
 
-<html class="theme-next pisces use-motion">
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
 
 
 
@@ -27,64 +46,69 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.4.2" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.4.2" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.4.2',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
   
-  
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
 
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Bible Reader, 中文圣经研读软件, 读经心得, 新约抄本, 圣经软件, 圣经工具, 圣经注释, 查经" />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.2" />
-
-
-
-
-
-
-<meta name="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+  <meta name="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="圣经研读">
 <meta property="og:url" content="http://biblereader.cn/page/4/index.html">
@@ -96,44 +120,24 @@
 
 
 
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: 'undefined',
-      author: '博主'
-    }
-  };
-</script>
-
 
 
 
   <link rel="canonical" href="http://biblereader.cn/page/4/"/>
 
 
-  <title> 圣经研读 - 《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。 </title>
-</head>
 
-<body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
 
+  <title>圣经研读</title>
   
 
 
 
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?142cefe7979f9b06de037cc509c16d23";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 
 
 
@@ -141,129 +145,167 @@
 
 
 
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left 
+  page-home">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">圣经研读</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">圣经研读</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">面对中文基督徒的一款研读圣经工具</p>
+      
+    
   </div>
-  <p class="site-subtitle">面对中文基督徒的一款研读圣经工具</p>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
+
 
 <nav class="site-nav">
-  
-
   
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-download">
-          <a href="/download" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-download"></i> <br />
-            
-            下载
-          </a>
-        </li>
-      
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
         
-        <li class="menu-item menu-item-donation">
-          <a href="/donation" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heart"></i> <br />
-            
-            捐赠
-          </a>
-        </li>
-      
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-download">
+    <a href="/download" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-download"></i> <br />下载</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-donation">
+    <a href="/donation" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-heart"></i> <br />捐赠</a>
+  </li>
 
+      
       
     </ul>
   
 
   
+
+  
 </nav>
 
- </div>
+
+
+  
+
+
+
+</div>
     </header>
+
+    
+
 
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
+            
+
+          
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
@@ -271,13 +313,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/旧约中的割礼仅仅是仪文吗？.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -285,9 +343,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/旧约中的割礼仅仅是仪文吗？.html" itemprop="url">
                   旧约中的割礼仅仅是仪文吗？
@@ -299,32 +354,66 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-11-06T11:27:27+08:00" content="2017-11-06">
-              2017-11-06
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-11-06 11:27:27 / 修改时间：12:02:45" itemprop="dateCreated datePublished" datetime="2017-11-06T11:27:27+08:00">2017-11-06</time>
+            
+
+            
+              
+
+              
+            
           </span>
 
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/旧约中的割礼仅仅是仪文吗？.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/旧约中的割礼仅仅是仪文吗？.html" class="cy_cmt_count" data-xid="旧约中的割礼仅仅是仪文吗？.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -349,15 +438,21 @@
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -367,6 +462,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -374,13 +473,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/从【利未记】19章28节，聊聊纹身和刺青.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -388,9 +503,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/从【利未记】19章28节，聊聊纹身和刺青.html" itemprop="url">
                   从【利未记】19章28节，聊聊纹身和刺青
@@ -402,32 +514,66 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-11-05T19:24:23+08:00" content="2017-11-05">
-              2017-11-05
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-11-05 19:24:23 / 修改时间：22:29:22" itemprop="dateCreated datePublished" datetime="2017-11-05T19:24:23+08:00">2017-11-05</time>
+            
+
+            
+              
+
+              
+            
           </span>
 
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/从【利未记】19章28节，聊聊纹身和刺青.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/从【利未记】19章28节，聊聊纹身和刺青.html" class="cy_cmt_count" data-xid="从【利未记】19章28节，聊聊纹身和刺青.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -436,24 +582,34 @@
       
         
           <p>纹身和刺青，在现代这个社会是非常普遍的大众化行为。那么，圣经到底如何看这个行为？为何是这样看的？</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/从【利未记】19章28节，聊聊纹身和刺青.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/从【利未记】19章28节，聊聊纹身和刺青.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+         
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -463,6 +619,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -470,13 +630,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/利未记17章7节之公山羊.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -484,9 +660,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/利未记17章7节之公山羊.html" itemprop="url">
                   利未记17章7节之公山羊
@@ -498,32 +671,66 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-11-03T15:20:02+08:00" content="2017-11-03">
-              2017-11-03
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-11-03 15:20:02 / 修改时间：15:42:57" itemprop="dateCreated datePublished" datetime="2017-11-03T15:20:02+08:00">2017-11-03</time>
+            
+
+            
+              
+
+              
+            
           </span>
 
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/利未记17章7节之公山羊.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/利未记17章7节之公山羊.html" class="cy_cmt_count" data-xid="利未记17章7节之公山羊.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -533,24 +740,34 @@
         
           <p>圣经中，有一些词是比较古老的，有的时候我们不能准确的知道这些词的意思。</p>
 <p>利未记17章7节中的“公山羊”就是其中一个例子，和合本翻译为“魔鬼”是恰当的。这个词原文的意思是：毛绒绒的东西。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/利未记17章7节之公山羊.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/利未记17章7节之公山羊.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+         
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -560,6 +777,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -567,13 +788,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/圣经研读-0-0-6发布.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -581,9 +818,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/圣经研读-0-0-6发布.html" itemprop="url">
                   圣经研读 0.0.6发布
@@ -595,32 +829,66 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-11-01T15:49:16+08:00" content="2017-11-01">
-              2017-11-01
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-11-01 15:49:16 / 修改时间：16:30:40" itemprop="dateCreated datePublished" datetime="2017-11-01T15:49:16+08:00">2017-11-01</time>
+            
+
+            
+              
+
+              
+            
           </span>
 
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/圣经研读-0-0-6发布.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/圣经研读-0-0-6发布.html" class="cy_cmt_count" data-xid="圣经研读-0-0-6发布.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -642,15 +910,21 @@
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -660,6 +934,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -667,13 +945,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/七十士译本简介.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -681,9 +975,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/七十士译本简介.html" itemprop="url">
                   七十士译本简介
@@ -695,32 +986,78 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-10-24T22:08:57+08:00" content="2017-10-24">
-              2017-10-24
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-10-24 22:08:57" itemprop="dateCreated datePublished" datetime="2017-10-24T22:08:57+08:00">2017-10-24</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2017-10-31 16:34:30" itemprop="dateModified" datetime="2017-10-31T16:34:30+08:00">2017-10-31</time>
+              
+            
           </span>
 
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/七十士译本简介.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/七十士译本简介.html" class="cy_cmt_count" data-xid="七十士译本简介.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -731,24 +1068,34 @@
           <p>作者：lambride  </p>
 <blockquote>
 <p>初信主时，就听到身边的一些弟兄姊妹谈起过《七十士译本》。听说是七十位犹太学者在一个岛上各自翻译，结果发现每位的译文彼此没有出入，当时觉得这事好神奇。又听说主耶稣和使徒们在世时所用的圣经就是《七十士译本》，从此这译本在我心里就有了特别的地位。当时就知道这些，那时也没什么资料可供查阅。近来对圣经译本有些兴趣，就搜寻了一些相关资料。从我所获得的一些有限的资料中，对《七十士译本》有了初步的了解，现在我愿与大家一同分享我所了解的《七十士译本》。<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/七十士译本简介.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/七十士译本简介.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+         
+          <!--/noindex-->
         
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -758,6 +1105,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -765,13 +1116,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/biblereader-0-0-5-released.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -779,9 +1146,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/biblereader-0-0-5-released.html" itemprop="url">
                   biblereader 0.0.5 发布
@@ -793,51 +1157,96 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-10-23T16:24:25+08:00" content="2017-10-23">
-              2017-10-23
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-10-23 16:24:25" itemprop="dateCreated datePublished" datetime="2017-10-23T16:24:25+08:00">2017-10-23</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2017-11-01 07:19:48" itemprop="dateModified" datetime="2017-11-01T07:19:48+08:00">2017-11-01</time>
+              
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/圣经工具/" itemprop="url" rel="index">
-                    <span itemprop="name">圣经工具</span>
-                  </a>
-                </span>
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/圣经工具/" itemprop="url" rel="index"><span itemprop="name">圣经工具</span></a></span>
 
                 
                 
-
               
             </span>
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/biblereader-0-0-5-released.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/biblereader-0-0-5-released.html" class="cy_cmt_count" data-xid="biblereader-0-0-5-released.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -861,15 +1270,21 @@
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -879,6 +1294,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -886,13 +1305,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/biblereader-0-0-4-released.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -900,9 +1335,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/biblereader-0-0-4-released.html" itemprop="url">
                   biblereader-0.0.4 发布
@@ -914,51 +1346,84 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-09-26T17:08:59+08:00" content="2017-09-26">
-              2017-09-26
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-09-26 17:08:59 / 修改时间：17:21:29" itemprop="dateCreated datePublished" datetime="2017-09-26T17:08:59+08:00">2017-09-26</time>
+            
+
+            
+              
+
+              
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/圣经工具/" itemprop="url" rel="index">
-                    <span itemprop="name">圣经工具</span>
-                  </a>
-                </span>
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/圣经工具/" itemprop="url" rel="index"><span itemprop="name">圣经工具</span></a></span>
 
                 
                 
-
               
             </span>
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/biblereader-0-0-4-released.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/biblereader-0-0-4-released.html" class="cy_cmt_count" data-xid="biblereader-0-0-4-released.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -981,15 +1446,21 @@
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -999,6 +1470,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1006,13 +1481,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/biblereader-0-0-4-md.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -1020,9 +1511,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/biblereader-0-0-4-md.html" itemprop="url">
                   【圣经研读】0.0.4将要发布
@@ -1034,51 +1522,84 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-09-26T16:23:34+08:00" content="2017-09-26">
-              2017-09-26
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-09-26 16:23:34 / 修改时间：16:38:36" itemprop="dateCreated datePublished" datetime="2017-09-26T16:23:34+08:00">2017-09-26</time>
+            
+
+            
+              
+
+              
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/开发/" itemprop="url" rel="index">
-                    <span itemprop="name">开发</span>
-                  </a>
-                </span>
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/开发/" itemprop="url" rel="index"><span itemprop="name">开发</span></a></span>
 
                 
                 
-
               
             </span>
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/biblereader-0-0-4-md.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/biblereader-0-0-4-md.html" class="cy_cmt_count" data-xid="biblereader-0-0-4-md.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -1099,15 +1620,21 @@
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -1117,6 +1644,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1124,13 +1655,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/biblereader-0-0-3-released.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -1138,9 +1685,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/biblereader-0-0-3-released.html" itemprop="url">
                   Bible Reader 0.0.3 发布
@@ -1152,51 +1696,96 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-09-09T14:39:55+08:00" content="2017-09-09">
-              2017-09-09
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-09-09 14:39:55" itemprop="dateCreated datePublished" datetime="2017-09-09T14:39:55+08:00">2017-09-09</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-10-14 11:21:58" itemprop="dateModified" datetime="2016-10-14T11:21:58+08:00">2016-10-14</time>
+              
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/圣经工具/" itemprop="url" rel="index">
-                    <span itemprop="name">圣经工具</span>
-                  </a>
-                </span>
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/圣经工具/" itemprop="url" rel="index"><span itemprop="name">圣经工具</span></a></span>
 
                 
                 
-
               
             </span>
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/biblereader-0-0-3-released.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/biblereader-0-0-3-released.html" class="cy_cmt_count" data-xid="biblereader-0-0-3-released.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -1219,15 +1808,21 @@
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -1237,6 +1832,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1244,13 +1843,29 @@
       
 
   
-  
 
   
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://biblereader.cn/biblereader-source.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圣经研读">
+      <meta itemprop="description" content="《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。">
+      <meta itemprop="image" content="/uploads/64X64.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="圣经研读">
+    </span>
 
     
       <header class="post-header">
@@ -1258,9 +1873,6 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
                 <a class="post-title-link" href="/biblereader-source.html" itemprop="url">
                   Bible Reader 项目已经开源，代码托管在git.oschina.net上
@@ -1272,51 +1884,80 @@
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-17T22:18:37+08:00" content="2016-10-17">
-              2016-10-17
-            </time>
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-10-17 22:18:37" itemprop="dateCreated datePublished" datetime="2016-10-17T22:18:37+08:00">2016-10-17</time>
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/开发/" itemprop="url" rel="index">
-                    <span itemprop="name">开发</span>
-                  </a>
-                </span>
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/开发/" itemprop="url" rel="index"><span itemprop="name">开发</span></a></span>
 
                 
                 
-
               
             </span>
           
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/biblereader-source.html#SOHUCS" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span id="url::http://biblereader.cn/biblereader-source.html" class="cy_cmt_count" data-xid="biblereader-source.html" itemprop="commentsCount" ></span>
+                </a>
+              
+            
+          
+
+          
           
 
           
 
           
-          
 
           
+
         </div>
       </header>
     
 
-
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
@@ -1336,15 +1977,21 @@
       
     </div>
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
+    
+    
+
+    
+
+    
+
+    
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -1354,6 +2001,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1362,15 +2013,12 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
 
           </div>
-          
-
-
           
 
         </div>
@@ -1386,63 +2034,230 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/uploads/64X64.png"
-               alt="圣经研读" />
-          <p class="site-author-name" itemprop="name">圣经研读</p>
-          <p class="site-description motion-element" itemprop="description">《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。</p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">41</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/64X64.png"
+                alt="圣经研读" />
+            
+              <p class="site-author-name" itemprop="name">圣经研读</p>
+              <p class="site-description motion-element" itemprop="description">《圣经研读》是一款研读圣经的工具，主要受众是中文为母语的基督徒。帮助该受众群体不需要去明白其他语言，就可以较为准确和仔细的研读圣经，在上帝的话语中扎根。</p>
           </div>
 
           
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">23</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives">
+                
+                    <span class="site-state-item-count">41</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">22</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">47</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
           
 
           
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">48</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
+
           
 
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
           
+          
+
+          
+          
+
+          
+            
+          
+          
+
         </div>
-
-        
-        
-
-        
-        
-
       </section>
 
       
+
+      
+
     </div>
   </aside>
 
@@ -1453,43 +2268,57 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy;  2017 - 
-  <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
+        <div class="copyright"> &copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">圣经研读</span>
+
+  
+
+  
 </div>
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io" rel="external nofollow">Hexo</a> 强力驱动
-</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow">
-    NexT.Pisces
-  </a> 
-</span>
-</span>
-</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Pisces</a> v6.4.2</div>
+
+
+
+
         
-
 <div class="busuanzi-count">
-
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
-    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
   
 
   
-    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
-  
+    <span class="site-pv" title="总访问量">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
   
 </div>
+
+
+
+
+
+
 
 
 
@@ -1497,9 +2326,18 @@
       </div>
     </footer>
 
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
   </div>
 
   
@@ -1518,77 +2356,114 @@
 
 
 
-  
 
 
 
-  
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.2"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.2"></script>
 
 
 
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.0.2"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.2"></script>
 
 
 
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.2"></script>
 
 
 
-  
 
-
-
-  
 
 
 
 
   
   
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.4.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.4.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.4.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.4.2"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.4.2"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+    <script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cytSUnKpI"></script>
+  
+
+
+
+
+
+
+
+  
+
+
+
+
 
   
 
   
 
   
-<script type="text/javascript" async src="//push.zhanzhang.baidu.com/push.js">
-</script>
 
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 </body>
 </html>
