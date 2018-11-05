@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>http://biblereader.cn/%E4%BA%9A%E4%BC%AF%E6%8B%89%E7%BD%95%E7%9A%84%E4%BF%A1%E5%BF%83%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
+    <lastmod>2018-11-05T03:21:13.484Z</lastmod>
+    <data>
+        <display>
+        <title>亚伯拉罕的信心（一）</title>
+        <pubTime>2018-11-05T03:15:54.000Z</pubTime>
+        
+        <tag>圣徒</tag>
+         
+        <tag>信心</tag>
+         
+         
+           
+             
+              <breadCrumb title="圣徒" url="http://biblereader.cn/categories/%E5%9C%A3%E5%BE%92/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://biblereader.cn/%E5%90%AF%E7%A4%BA%E5%BD%95%E4%B8%83%E6%95%99%E4%BC%9A%E4%B9%8B%E8%80%81%E5%BA%95%E5%98%89%E6%95%99%E4%BC%9A.html</loc>
-    <lastmod>2018-11-04T11:19:47.647Z</lastmod>
+    <lastmod>2018-11-05T03:17:03.667Z</lastmod>
     <data>
         <display>
         <title>启示录七教会之老底嘉教会</title>
@@ -960,11 +982,11 @@
         <title>圣经与圣经历史</title>
         <pubTime>2016-10-14T04:03:42.000Z</pubTime>
         
+        <tag>圣经</tag>
+         
         <tag>圣经文本</tag>
          
         <tag>圣经版本</tag>
-         
-        <tag>圣经</tag>
          
          
            
@@ -1022,9 +1044,9 @@
         <title>【圣经研读】0.0.4将要发布</title>
         <pubTime>2017-09-26T08:23:34.000Z</pubTime>
         
-        <tag>Bible Reader</tag>
-         
         <tag>圣经研读</tag>
+         
+        <tag>Bible Reader</tag>
          
          
            
