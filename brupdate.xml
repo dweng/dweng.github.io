@@ -8,9 +8,9 @@
     },
     "osx": {
       "open-url": "",
-      "latest-version": "0.0.9",
-      "download-url": "http://files.biblereader.cn/BibleReader-0.0.9.zip",
-      "changelog": "搜索结果跳转bug修复"
+      "latest-version": "0.0.11",
+      "download-url": "http://files.biblereader.cn/BibleReader-0.0.11.zip",
+      "changelog": "Bug修复"
     },
     "linux": {
       "open-url": "",
