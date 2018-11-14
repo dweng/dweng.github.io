@@ -8,9 +8,9 @@
     },
     "osx": {
       "open-url": "",
-      "latest-version": "0.0.11",
-      "download-url": "http://files.biblereader.cn/BibleReader-0.0.11.zip",
-      "changelog": "Bug修复"
+      "latest-version": "0.0.12",
+      "download-url": "http://files.biblereader.cn/BibleReader-0.0.12.zip",
+      "changelog": "资源管理器初版实现，可以在资源管理器中管理圣经、字典等资源"
     },
     "linux": {
       "open-url": "",
