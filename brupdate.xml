@@ -2,9 +2,9 @@
   "updates": {
     "windows": {
       "open-url": "",
-      "latest-version": "0.0.11",
-      "download-url": "http://files.biblereader.cn/%E5%9C%A3%E7%BB%8F%E7%A0%94%E8%AF%BB-0.0.11-setup-20180824073607.exe",
-      "changelog": "高亮bug修复"
+      "latest-version": "0.0.12",
+      "download-url": "http://files.biblereader.cn/%E5%9C%A3%E7%BB%8F%E7%A0%94%E8%AF%BB-0.0.12-setup-20181114114554.exe",
+      "changelog": "资源管理器初版实现，可以在资源管理器中管理圣经、字典等资源"
     },
     "osx": {
       "open-url": "",
