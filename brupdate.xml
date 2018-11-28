@@ -2,9 +2,9 @@
   "updates": {
     "windows": {
       "open-url": "",
-      "latest-version": "0.1.12",
-      "download-url": "http://files.biblereader.cn/%E5%9C%A3%E7%BB%8F%E7%A0%94%E8%AF%BB-0.1.12-setup-20181124091107.exe",
-      "changelog": "增加主题选择和圣经度量转换器"
+      "latest-version": "0.1.13",
+      "download-url": "http://files.biblereader.cn/%E5%9C%A3%E7%BB%8F%E7%A0%94%E8%AF%BB-0.1.13-setup-20181128085750.exe",
+      "changelog": "bug修复，一些功能的增加"
     },
     "osx": {
       "open-url": "",
