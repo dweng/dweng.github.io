@@ -9,14 +9,14 @@
     "osx": {
       "open-url": "",
       "latest-version": "0.1.12",
-      "download-url": "http://files.biblereader.cn/BibleReader-0.1.12.zip",
-      "changelog": "增加主题选择和圣经度量转换器"
+      "download-url": "http://files.biblereader.cn/BibleReader-0.1.13.zip",
+      "changelog": "bug修复，一些功能的增加"
     },
     "linux": {
       "open-url": "",
       "latest-version": "0.1.12",
-      "download-url": "http://files.biblereader.cn/biblereader-0.1.12.run",
-      "changelog": "增加主题选择和圣经度量转换器"
+      "download-url": "http://files.biblereader.cn/biblereader-0.1.13.run",
+      "changelog": "bug修复，一些功能的增加"
     }
   }
 }
