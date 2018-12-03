@@ -1,19 +1,19 @@
 {
   "updates": {
     "windows": {
-      "open-url": "",
-      "latest-version": "0.1.13",
-      "download-url": "http://files.biblereader.cn/%E5%9C%A3%E7%BB%8F%E7%A0%94%E8%AF%BB-0.1.13-setup-20181128085750.exe",
+      "open-url": "http://biblereader.cn/download",
+      "latest-version": "0.1.14",
+      "download-url": "http://files.biblereader.cn/%E5%9C%A3%E7%BB%8F%E7%A0%94%E8%AF%BB-0.1.14-setup-20181203161209.exe",
       "changelog": "bug修复，一些功能的增加"
     },
     "osx": {
-      "open-url": "",
+      "open-url": "http://biblereader.cn/download",
       "latest-version": "0.1.13",
       "download-url": "http://files.biblereader.cn/BibleReader-0.1.13.zip",
       "changelog": "bug修复，一些功能的增加"
     },
     "linux": {
-      "open-url": "",
+      "open-url": "http://biblereader.cn/download",
       "latest-version": "0.1.13",
       "download-url": "http://files.biblereader.cn/biblereader-0.1.13.run",
       "changelog": "bug修复，一些功能的增加"
