@@ -8,14 +8,14 @@
     },
     "osx": {
       "open-url": "http://biblereader.cn/download",
-      "latest-version": "0.1.13",
-      "download-url": "http://files.biblereader.cn/BibleReader-0.1.13.zip",
+      "latest-version": "0.1.14",
+      "download-url": "http://files.biblereader.cn/BibleReader-0.1.14.zip",
       "changelog": "bug修复，一些功能的增加"
     },
     "linux": {
       "open-url": "http://biblereader.cn/download",
-      "latest-version": "0.1.13",
-      "download-url": "http://files.biblereader.cn/biblereader-0.1.13.run",
+      "latest-version": "0.1.14",
+      "download-url": "http://files.biblereader.cn/biblereader-0.1.14.run",
       "changelog": "bug修复，一些功能的增加"
     }
   }
